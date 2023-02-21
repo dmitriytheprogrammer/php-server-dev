@@ -14,7 +14,7 @@
     <header class="header-wrapper">
         <img width="200px" class="img" src="../lab1/logo.png" alt="polytechlogo">
         <h1 class="header__task">Тема 1. Домашняя работа: Hello, World!</h1>
-        <h2 class="header__full-name">Зернов Дмитрий Михайлович, 221-323</h2>
+        <h2 class="header__full-name">Зернов Дмитрий Михайлович, группа 221-323</h2>
     </header>
 
 
