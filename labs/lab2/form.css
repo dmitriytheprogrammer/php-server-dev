@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --form-text-color: rgba(0, 0, 0, 0.22);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header__wrapper-form {
+    max-width: 1236px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47px;
+    padding-bottom: 51px;
+}
+
+.form {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1238px;
+}
+
+.form-wrapper {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1238px;
+    margin: 100px 100px;
+}
+
+.form__form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+}
+
+.form__label {
+    max-width: 450px;
+    margin: 5px 20px 5px 0px;
+    box-shadow: 2px 2px 2px 2px rgb(186, 186, 186);
+}
+
+.form__heading {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: 1.32px;
+    color: #393737;
+    padding-bottom: 10px;
+}
+
+.form__paragraph {
+    font-size: 18px;
+    line-height: 21px;
+    width: 600px;
+    letter-spacing: 1.8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #393737;
+}
+
+.form__time-selection {
+    padding: 20px 0;
+    margin-bottom: 20px;
+    width: 100px;  
+    height: auto;
+}
+
+.form__input {
+    font-size: 18px;
+    line-height: 54px; 
+    width: 450px;
+    color: var(--text-color);
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: none;
+    height: auto;
+}
+
+.form__text {
+    padding: 10px 0;
+    width: 300px;
+}
+
+.form__sorry-text {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.form__label--date {
+    width: 215px;
+    margin: 5px 20px 5px 0px;
+    box-shadow: 2px 2px 2px 2px rgb(186, 186, 186);
+}
+
+.form__label--gender {
+    width: 215px;
+    margin: 5px 20px 5px 0px;
+    box-shadow: 2px 2px 2px 2px rgb(186, 186, 186);
+}
+
+.button__wrapper {
+    display: flex;
+}
+
+.form__button-submit {
+    max-width: 190px;
+    display: block;
+    border-radius: 4px;
+    font-size: 24px;
+    padding-top: 50px;
+    line-height: 24px;
+    padding: 20px;
+    margin-top: 20px;
+    letter-spacing: 0.45px;
+    border:none;
+    background-color: #393737;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+}
+
+.form__button-submit:hover {
+    background-color:black;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+
+.form__button-reset {
+    font-size: 15px;
+    margin-left: 20px;
+    display: block;
+    cursor: pointer;
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+    padding: 25px 25px;
+    outline: none;
+    border-radius: 7px;
+    background: repeating-linear-gradient(135deg, #0c0505, #0c0505 10px, #ff9900 10px, #ff9900 20px, #ff6600 20px);
+  }
+
+  .form__button-reset:after {
+    padding: .3em .7em;
+    color: rgba(0,0,0,0);
+  }
+  
+  .form__link {
+    color: blue;
+  }
+
+
+  .form-psevdoclass {
+    box-sizing: border-box;
+    width: 700px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+  .form-psevdoclass__letter {
+        size: 300%;
+        color: rgb(255, 0, 0);    
+        font-size: 70px;
+        line-height: 60px;    
+        display: inline-block;
+  }
+
+  .form-psevdoclass__dt {
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .form-psevdoclass__dd {
+    padding: 10px 30px 30px;
+  }
+
+  .form-psevdoclass-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+  }
+
+  .form-psevdoclass-wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 600px;
+    height: 100px;
+  }
+  
+ 
+  .form-psevdoclass__checkbox {
+   padding: 3px;
+   font-weight: 600;
+   width: 500px;
+  }
+
