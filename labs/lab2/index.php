@@ -68,7 +68,7 @@
                 <textarea id="" rows="10" name="" cols="50">
                     <?php
 
-                    $url = 'http://www.example.com';
+                    $url = 'http://server-web-dev.std-2094.ist.mospolytech.ru/labs/lab2';
 
                     print_r(get_headers($url));
 
